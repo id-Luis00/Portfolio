@@ -1,9 +1,13 @@
+import { Container } from "react-bootstrap";
 import "./App.css";
+import Home from "./pages/home/Home";
 
 function App() {
   return (
     <>
-      <h1>My-Portfolio</h1>
+      <Container fluid>
+        <Home />
+      </Container>
     </>
   );
 }
